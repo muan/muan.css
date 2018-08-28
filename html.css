@@ -1,0 +1,42 @@
+body,
+button,
+textarea,
+input {
+  font-family: monospace;
+}
+
+body {
+  font-size: 14px;
+  margin: 0;
+  padding: 2em;
+} 
+
+a { 
+  color: #2023de;
+}
+
+footer,
+header {
+  margin: 1em 0;
+}
+
+footer,
+header,
+main {
+  width: 100%;
+  max-width: 36em;
+}
+
+label {
+  display: block;
+}
+
+textarea,
+input {
+  margin: 0.4em 0;
+  width: 100%;
+}
+
+button {
+  padding: 0.4em;
+}
