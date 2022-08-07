@@ -2,7 +2,7 @@ body,
 button,
 textarea,
 input {
-  font-family: monospace;
+  font-family: system-ui, sans-serif;
 }
 
 body {
@@ -39,4 +39,8 @@ input {
 
 button {
   padding: 0.4em;
+}
+
+code, pre, .code {
+  font-family: 'Courier New', Courier, monospace;  
 }
