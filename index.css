@@ -74,7 +74,7 @@ fieldset {
   margin: 1em 0;
 }
 
-button {
+button, .button {
   padding: 0.8em 1.6em;
   background: var(--subtleBackgroundColor);
   border: 0;
@@ -83,7 +83,7 @@ button {
   border-radius: 2px;
 }
 
-button[type="submit"] {
+button[type="submit"], .button\:type-submit {
   background: var(--linkColor);
   color: var(--backgroundColor);
 }
