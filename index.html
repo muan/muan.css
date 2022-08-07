@@ -8,11 +8,36 @@
   <link href="./index.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-  <h1>muan.css</h1>
-  <form>
-    <label for="name">Name</label>
-    <input type="text" name="name" id="name">
-    <button type="submit">Submit</button>
-  </form>
+  <header>
+    <h1>muan.css</h1>
+  </header>
+  <main>
+    <h2>Text</h2>
+    <p>Lorem ipsum dolor sit amet <b>consectetur</b> adipisicing elit. Molestiae mollitia cum adipisci autem <em>eum exercitationem</em> a sequi similique cumque asperiores corporis <a>neque itaque</a>, nobis nemo obcaecati consequatur. Tenetur, illo quaerat.</p>
+    <blockquote>Lorem ipsum, dolor sit amet consectetur <code>adipisicing</code> elit. Blanditiis vero tempora iusto eligendi ipsum saepe commodi.</blockquote>
+    <pre>
+input {
+  color: #ff0000;
+}</pre>
+    <h2>Form</h2>
+    <form>
+      <fieldset>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+      </fieldset>
+      <fieldset>
+        <label>How goes?</label>
+        <label for="fine1">
+          <input type="radio" name="goes" id="fine1" checked>
+          Fine
+        </label>
+        <label for="fine2">
+          <input type="radio" name="goes" id="fine2">
+          Fine
+        </label>
+      </fieldset>
+      <button type="submit">Submit</button>
+    </form>
+  </main>
 </body>
 </html>
