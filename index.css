@@ -8,6 +8,8 @@
   --borderColor: #ccc;
 }
 
+html { font-size: 100%; font: -apple-system-body; }
+
 @media (prefers-color-scheme: dark) {
   :root {
     --backgroundColor: #151615;
